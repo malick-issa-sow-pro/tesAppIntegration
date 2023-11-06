@@ -167,7 +167,7 @@ function validateFormData(elem, elemType, elemName){
 
 // adding the invalid text
 function addErrMsg(formElem, formElemName){
-    formElem.nextElementSibling.innerHTML = `${formElemName} is invalid`;
+    formElem.nextElementSibling.innerHTML = `${formElemName} n'est pas valide`;
 }
 
 // removing the invalid text 

@@ -29,6 +29,8 @@ transactionCtrl.get('/initier', async (req, res) => {
     const resInit = await jottaliClient.post('/transactions/initier', {
       total: 2,
       referenceInterne: "123450",
+      urlSucces: "http://127.0.0.1:3000/HHGDFDFGH.pdf",
+      urlErreur: "https://facebook.com",
     }, {
       headers: {
         Authorization: resAuth.data.accessToken,
